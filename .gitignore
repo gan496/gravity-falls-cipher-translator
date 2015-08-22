@@ -8,6 +8,9 @@ Desktop.ini
 # Netbeans Project Folder
 nbproject/
 
+#Sass Cache
+css/.sass-cache
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
