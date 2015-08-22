@@ -1,0 +1,22 @@
+.main {
+    width: $main-width;
+    height: $main-height;
+    background-color: $white;
+    position: absolute;
+    top: 50%;
+    margin-top: -1*($main-height/2);
+    left: 50%;
+    margin-left: -1*($main-width/2);
+    text-align: center;
+    padding: $main-padding;
+    border-radius: $main-border-radius;
+    box-shadow: 0px 5px 10px #aaa;
+    
+    h3{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: $main-font;
+        font-size: $main-font-size;
+        font-weight: lighter;
+    }
+}

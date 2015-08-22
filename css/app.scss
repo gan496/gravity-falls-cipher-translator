@@ -1,0 +1,13 @@
+@import 'variables',
+'project/divs',
+'project/inputs',
+'project/text-items';
+
+label {
+    font-family: $main-font;
+    font-size: 12pt;
+}
+
+body {
+    background-color: $main-background-color;
+}

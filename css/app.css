@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 16, 2015, 2:48:35 PM
+    Author     : Swapnil
+*/
+.main {
+  width: 600px;
+  height: 350px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -175px;
+  left: 50%;
+  margin-left: -300px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px #aaa; }
+  .main h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Source Sans Pro";
+    font-size: 32pt;
+    font-weight: lighter; }
+
+.main #english-text {
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #eee;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 18pt; }
+.main .radiobn {
+  margin: 20px 5px; }
+.main button {
+  box-sizing: border-box;
+  padding: 5px;
+  margin-right: 10px;
+  width: 100px;
+  text-align: center;
+  background-color: #2196F3;
+  border: 5px solid #1976D2;
+  border-radius: 5px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 12pt;
+  color: #fff;
+  text-transform: uppercase; }
+  .main button:hover {
+    background-color: #3F51B5;
+    border: 5px solid #303F9F; }
+
+#cipher {
+  display: none;
+  font-family: "Source Sans Pro";
+  font-size: 16pt;
+  font-weight: bold; }
+
+label {
+  font-family: "Source Sans Pro";
+  font-size: 12pt; }
+
+body {
+  background-color: #ccc; }
+
+/*# sourceMappingURL=app.css.map */

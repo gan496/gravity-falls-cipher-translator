@@ -1,0 +1,39 @@
+.main {
+    #english-text{
+        padding: 5px;
+        margin-bottom: 20px;
+        background-color: #eee;
+        border: 5px solid #ccc;
+        border-radius: 5px;
+        width: 400px;
+        text-align: center;
+        font-family: $main-font;
+        font-weight: bold;
+        font-size: $input-font-size;
+    }
+    
+    .radiobn {
+        margin: 20px 5px;
+    }
+    
+    button {
+        box-sizing: border-box;
+        padding: 5px;
+        margin-right: 10px;
+        width: 100px;
+        text-align: center;
+        background-color: $material-blue-500;
+        border: 5px solid $material-blue-700;
+        border-radius: 5px;
+        font-family: $main-font;
+        font-weight: bold;
+        font-size: 12pt;
+        color: $white;
+        text-transform: uppercase;
+        
+        &:hover {
+            background-color: $material-indigo-500;
+            border: 5px solid $material-indigo-700;
+        }
+    }
+}
