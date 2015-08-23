@@ -12,6 +12,10 @@ nbproject/
 css/.sass-cache
 css/app.ss
 
+#Generated CSS
+css/app.css
+css/app.css.map
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 

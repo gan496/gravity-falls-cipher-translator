@@ -21,21 +21,23 @@ and open the template in the editor.
   border-radius: 20px;
   box-shadow: 0px 5px 10px #aaa; }
   .main h3 {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-family: "Source Sans Pro";
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 32pt;
     font-weight: lighter; }
 
+#cipher-form-container {
+  margin: 10px 0px; }
+
 .main #english-text {
   padding: 5px;
-  margin-bottom: 20px;
   background-color: #eee;
   border: 5px solid #ccc;
   border-radius: 5px;
   width: 400px;
   text-align: center;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 18pt; }
 .main .radiobn {
@@ -49,7 +51,7 @@ and open the template in the editor.
   background-color: #2196F3;
   border: 5px solid #1976D2;
   border-radius: 5px;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 12pt;
   color: #fff;
@@ -59,13 +61,15 @@ and open the template in the editor.
     border: 5px solid #303F9F; }
 
 #cipher {
+  margin-top: 20px;
+  margin-bottom: 15px;
   display: none;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16pt;
   font-weight: bold; }
 
 label {
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 12pt; }
 
 body {
