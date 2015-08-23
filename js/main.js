@@ -1,3 +1,6 @@
+"use strict";
+
+var i = 0;
 var noTextCounter = 0;
 
 $('#submitbutton').click(function(){
@@ -139,6 +142,7 @@ function translateToAtbash (userString) {
     var newSentence = userString.toUpperCase();
     var numberofCharacters = newSentence.length;
     var charForThis = 0;
+    var testChar = 0;
     
     console.log("The sentence is: " + newSentence + " and it has " + numberofCharacters + " characters.");
     
