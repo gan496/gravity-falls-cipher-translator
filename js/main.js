@@ -143,12 +143,9 @@ function translateToAtbash (userString) {
     var finalString = new String;
     var newSentence = userString.toUpperCase();
     var numberofCharacters = newSentence.length;
-<<<<<<< HEAD
     var charForThis;
-=======
     var charForThis = 0;
     var testChar = 0;
->>>>>>> master
     
     console.log("The sentence is: " + newSentence + " and it has " + numberofCharacters + " characters.");
     
