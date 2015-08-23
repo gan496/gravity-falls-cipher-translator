@@ -66,6 +66,7 @@ function translateToCaesar(userString) {
     var finalString = new String;
     var newSentence = userString.toUpperCase();
     var numberofCharacters = newSentence.length;
+    
     console.log("The sentence is: " + newSentence + " and it has " + numberofCharacters + " characters.");
     for (i = 0; i < numberofCharacters; i++) {
         console.log("The counter is at " + i);
@@ -102,6 +103,7 @@ function translateFromCaesar (userString) {
     var finalString = new String;
     var newSentence = userString.toUpperCase();
     var numberofCharacters = newSentence.length;
+    
     console.log("The sentence is: " + newSentence + " and it has " + numberofCharacters + " characters.");
     for (i = 0; i < numberofCharacters; i++) {
         console.log("The counter is at " + i);
@@ -138,7 +140,7 @@ function translateToAtbash (userString) {
     var finalString = new String;
     var newSentence = userString.toUpperCase();
     var numberofCharacters = newSentence.length;
-    var charForThis = 0;
+    var charForThis;
     
     console.log("The sentence is: " + newSentence + " and it has " + numberofCharacters + " characters.");
     
@@ -162,3 +164,15 @@ function translateToAtbash (userString) {
     
     return finalString;
 }
+
+//function translateFromA1z26 (userString) {
+//    var finalString = new String;
+//    var newSentence = userString.split("-");
+//    var numberofCharacters = newSentence.length;
+//    var charForThis;
+//    
+//    console.log("The sentence is: " + newSentence + " and it has " + numberofCharacters + " characters.");
+//    
+//    for (i=0; i < numberofCharacters; i++) {
+//        }
+//}
