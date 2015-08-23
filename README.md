@@ -4,4 +4,4 @@ A Javascript based cryptograph encoder/decoder for cipher messages as seen in th
 .
 More information about the cryptographs: http://gravityfalls.wikia.com/wiki/List_of_cryptograms
 
-As of now, only Caesar and Atbash Ciphers are supported.
+As of now, only Caesar and Atbash Ciphers are supported. A1z26 is a WIP. Check branch "a1z26-cipher" for progress.
