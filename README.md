@@ -1,4 +1,4 @@
-# gravity-falls-cipher-translator
+# Gravity Falls Cipher Translator
 
 A Javascript based cryptograph encoder/decoder for cipher messages as seen in the end credits of the show Gravity Falls
 .
