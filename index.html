@@ -12,10 +12,12 @@
         <div class="main">
                 <h3>Gravity Falls Cipher Translator</h3><br>
                 <input id="english-text" type="text" name="humanlanguage"><br>
-                <form id="cipher-form">
-                    <input id="caesar-radio" class="radiobn" type="radio" name="cipherName" value="caesar"><label>Caesar Cipher</label>
-                    <input id="atbash-radio" class="radiobn" type="radio" name="cipherName" value="atbash"><label>Atbash Cipher</label>
-                </form>
+                <div id="cipher-form-container">
+                    <form id="cipher-form">
+                        <input id="caesar-radio" class="radiobn" type="radio" name="cipherName" value="caesar"><label>Caesar Cipher</label>
+                        <input id="atbash-radio" class="radiobn" type="radio" name="cipherName" value="atbash"><label>Atbash Cipher</label>
+                    </form>
+                </div>
                 <button id="submitbutton">Encode</button><button id="submitbutton-2">Decode</button>
                 <p id="cipher">Output</p>
         </div>
