@@ -69,11 +69,7 @@ function translateToCaesar(userString) {
     var finalString = new String;
     var newSentence = userString.toUpperCase();
     var numberofCharacters = newSentence.length;
-<<<<<<< HEAD
-    
-    console.log("The sentence is: " + newSentence + " and it has " + numberofCharacters + " characters.");
-=======
->>>>>>> master
+
     for (i = 0; i < numberofCharacters; i++) {
         var testChar = newSentence.charCodeAt(i);
         
@@ -98,11 +94,7 @@ function translateFromCaesar (userString) {
     var finalString = new String;
     var newSentence = userString.toUpperCase();
     var numberofCharacters = newSentence.length;
-<<<<<<< HEAD
-    
-    console.log("The sentence is: " + newSentence + " and it has " + numberofCharacters + " characters.");
-=======
->>>>>>> master
+
     for (i = 0; i < numberofCharacters; i++) {
         var testChar = newSentence.charCodeAt(i);
         
