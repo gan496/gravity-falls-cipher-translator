@@ -27,6 +27,9 @@ $('#submitbutton').click(function(){
     else {
         alert("Please choose the cipher name to continue.");
     }
+    $("#main-window").animate({
+        height: '350px'
+    });
     $("#cipher").text(cipheredCode);
     $("#cipher").show();
 });
