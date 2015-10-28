@@ -7,7 +7,7 @@ $('#submitbutton').click(function(){
     var sentence = $("#english-text").val();
     if (checkForBlank(sentence) === false) {
         if (noTextCounter === 0) {
-            alert("Enter some text");
+            alert("Enter something to translate");
         }
         else {
             alert("First enter some text. I said this " + (noTextCounter + 1) + " times already!");
@@ -15,7 +15,7 @@ $('#submitbutton').click(function(){
         noTextCounter++;
         return 0;
     }
-    
+
     var cipheredCode = new String;
     var cipherToUse = $('input[name=cipherName]:checked', '#cipher-form').val();
     if (cipherToUse === 'caesar') {
@@ -74,17 +74,17 @@ function translateToCaesar(userString) {
     var numberofCharacters = newSentence.length;
     for (i = 0; i < numberofCharacters; i++) {
         var testChar = newSentence.charCodeAt(i);
-        
+
         if (64 > testChar || 91 < testChar) {
                 var charForThis = testChar;
             }
-               
+
         else {
                 if (87 < testChar) {
                 var charForThis = testChar-23;
                 }
                 else {
-                    var charForThis = testChar+3;    
+                    var charForThis = testChar+3;
                 }
             }
     finalString = finalString.concat(String.fromCharCode(charForThis));
@@ -98,17 +98,17 @@ function translateFromCaesar (userString) {
     var numberofCharacters = newSentence.length;
     for (i = 0; i < numberofCharacters; i++) {
         var testChar = newSentence.charCodeAt(i);
-        
+
         if (64 > testChar || 91 < testChar) {
                 var charForThis = testChar;
             }
-               
+
         else {
                 if (68 > testChar) {
                 var charForThis = testChar+23;
                 }
                 else {
-                    var charForThis = testChar-3;      
+                    var charForThis = testChar-3;
                 }
             }
     finalString = finalString.concat(String.fromCharCode(charForThis));
@@ -122,7 +122,7 @@ function translateToAtbash (userString) {
     var numberofCharacters = newSentence.length;
     var charForThis = 0;
     var testChar = 0;
-    
+
     for (i=0; i < numberofCharacters; i++) {
         testChar = newSentence.charCodeAt(i);
         if (testChar < 64 || testChar > 91) {
@@ -134,6 +134,6 @@ function translateToAtbash (userString) {
         }
         finalString = finalString.concat(String.fromCharCode(charForThis));
     }
-    
+
     return finalString;
 }
